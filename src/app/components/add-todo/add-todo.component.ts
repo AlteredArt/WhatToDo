@@ -13,13 +13,11 @@ export class AddTodoComponent implements OnInit {
   ngOnInit(): void {
   }
 
-
   onSubmit(){
     const todo = {
       title: this.title,
       completed: false
     }
-
     this.addTodo.emit(todo);
   }
 }
