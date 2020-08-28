@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.4;
   }
   
@@ -19,14 +19,16 @@
   }
   
   .btn {
+    height: 50px;
+    font-size: 20px;
     display: inline-block;
     border: none;
-    background: #555;
+    background:#666;
     color: #fff;
     padding: 7px 20px;
     cursor: pointer;
   }
   
   .btn:hover {
-    background: #666;
+    background:  rgb(43, 146, 43);
   }

@@ -7,13 +7,12 @@ const httpOptions = {
     'Content-Type': 'application/json',
   })
 }
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable({providedIn: 'root'})
+
 export class TodoService {
 
   todosUrl:string = 'https://jsonplaceholder.typicode.com/todos';
-  todosLimit = '?_limit=20';
+  todosLimit = '?_limit=3';
 
   constructor(private http: HttpClient) { }
 
@@ -38,6 +37,5 @@ addTodo(todo:Todo):Observable<Todo> {
   toggleCompleted(todo: Todo): Observable<any>{
     const url = `${this.todosUrl}/${todo.id}`;
     return this.http.put(url, todo, httpOptions);
-
   }
 }
