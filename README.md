@@ -1,6 +1,6 @@
 # WhatToDo
 WhatToDo is a Angular ToDo App that utilizes the json placeholder Api to fetch data for the initial list and persist it to the UI.
-You can complete a Todo by clicking the checkbox, or remove a Todo by clicking the X. Feel free to add your own todos.
+You can complete a Todo by clicking the checkbox, or remove a Todo by clicking the X. Feel free to add your own todos. This App is deployed with Netlify.
 
 
 ## Development server
